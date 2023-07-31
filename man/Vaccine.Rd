@@ -4,8 +4,14 @@
 \alias{Vaccine}
 \title{Vaccine data}
 \format{
-A data frame with observations on the following variables.
+A data frame with twelve observations on the following six variables.
 \describe{
+\item{\code{Batch}}{a factor with levels \code{1} \code{2} \code{3} \code{4}}
+\item{\code{Tested}}{a response variable}
+\item{\code{Positive}}{a response variable}
+\item{\code{Area}}{a factor with levels \code{Cardiff} \code{Sheffield} \code{Staffordshire}}
+\item{\code{Method}}{a factor with levels \code{I} \code{MP}}
+\item{\code{Needle}}{a factor with levels \code{Detachable} \code{Fixed}}
 }
 }
 \source{

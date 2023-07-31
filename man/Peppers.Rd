@@ -11,7 +11,7 @@ A data frame with 24 observations on the following 6 variables.
 \item{\code{CO2}}{a factor with levels \code{Added} \code{c} \code{Control}}
 \item{\code{Year}}{a factor with levels \code{1} \code{2}}
 \item{\code{Block}}{a factor with levels \code{1} \code{2} \code{3} \code{4}}
-\item{\code{Excess}}{a numeric vector}
+\item{\code{Excess}}{the response variable}
 }
 }
 \source{

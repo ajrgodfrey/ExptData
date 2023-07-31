@@ -1,17 +1,17 @@
 Package: ExptData
-Title: Gathers Datasets used in Teaching/Learning Experimental Design
+Title: Datasets used in Teaching/Learning Experimental Design
 Version: 0.0.1
 Authors@R: 
     person("A. Jonathan R.", "Godfrey", , "a.j.godfrey@massey.ac.nz", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-8129-8835"))
-Description: What the package does (one paragraph).
+Description: Datasets used in teaching experimental design are not always ready for immediate use. Datasets have been manually entered or electronically obtained and then curated to use upper camel case for dataset and variable names. Categorical variables are stored as factors, although numeric-valued factors are stored as both numeric and factor variables. 
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Suggests: 
     spelling
-Language: en-UK
+Language: en-US
 Depends: 
     R (>= 2.10)
 LazyData: true

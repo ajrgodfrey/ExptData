@@ -4,8 +4,14 @@
 \alias{Turnip}
 \title{Turnip data}
 \format{
-A data frame with observations on the following variables.
+A data frame with sixty observations on the following six variables.
 \describe{
+\item{\code{Yield}}{the response variable}
+\item{\code{Block}}{a factor with levels \code{B1} \code{B2} \code{B3}}
+\item{\code{Spacing}}{four levels stored numerically}
+\item{\code{Density}}{five levels stored numerically}
+\item{\code{SpacingF}}{a factor with levels \code{4} \code{8} \code{16} \code{32}}
+\item{\code{DensityF}}{a factor with levels \code{0.5} \code{2} \code{8} \code{20} \code{32}}
 }
 }
 \source{

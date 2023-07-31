@@ -2,10 +2,13 @@
 % Please edit documentation in R/Mead1988Data.R
 \name{CabbageFlies}
 \alias{CabbageFlies}
-\title{CabbageFlies data}
+\title{Cabbage Root Flies data}
 \format{
-A data frame with observations on the following variables.
+A data frame with thirty observations on the following three variables.
 \describe{
+\item{\code{Substance}}{a factor with levels \code{1} \code{2} \code{3} \code{4} \code{5} \code{6}}
+\item{\code{Block}}{a factor with levels \code{1} \code{2} \code{3} \code{4} \code{5} \code{6} \code{7} \code{8} \code{9} \code{10}}
+\item{\code{Eggs}}{the response variable; a count}
 }
 }
 \source{
@@ -15,7 +18,7 @@ Mead, R. (1988) "The Design of Experiments: Statistical Principles for Practical
 CabbageFlies
 }
 \description{
-Data from a ... experiment
+Data from an experiment into the effectiveness of six substances to attract cabbage root flies. An incomplete block design  with ten blocks of three units was used.
 }
 \author{
 contributed by A. Jonathan R. Godfrey

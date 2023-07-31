@@ -4,7 +4,8 @@
 ^LICENSE\.md$
 ^data-raw$
 ^0UpdateWithGit.bat$
-^1UpdateGit.bat$
+^1UpdateWithGit.bat$
 ^2PushToGitHub.bat$
 ^3ViewOnGitHub.url$
 ^4PullingFromGitHub.bat$
+rterminal.lnk

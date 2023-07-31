@@ -2,10 +2,14 @@
 % Please edit documentation in R/Mead1988Data.R
 \name{PainRelief}
 \alias{PainRelief}
-\title{PainRelief data}
+\title{Pain Relief data}
 \format{
-A data frame with observations on the following variables.
+A data frame with 86 observations on the following four variables.
 \describe{
+\item{\code{Patient}}{a factor with levels \code{1} to \code{43}}
+\item{\code{Period}}{a factor with levels \code{1} \code{2}}
+\item{\code{Drug}}{a factor with levels \code{T1} \code{T2} \code{T3}}
+\item{\code{Hours}}{the response variable}
 }
 }
 \source{

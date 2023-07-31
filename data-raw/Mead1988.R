@@ -3,6 +3,7 @@
 
 
 library(dplyr)
+library(forcats)
 
 Datasets = c("CabbageFlies", "Detergent", "PainRelief", "Peppers", "Turnip", "Vaccine")
 
@@ -12,8 +13,12 @@ for(Dataset in Datasets){
 
 # now for extra manipulations:
 
-Peppers =  Peppers |> mutate(Block=as.factor(Block), Year = as.factor(Year))
-
+CabbageFlies = CabbageFlies |> mutate(across(!Eggs, as_factor))
+Detergent = Detergent |> mutate(across(!Plates, as_factor))
+PainRelief = PainRelief |> mutate(across(!Hours, as_factor))
+Peppers =  Peppers |> mutate(Block = as_factor(Block), Year = as_factor(Year))
+Turnip = Turnip |> mutate(SpacingF = as_factor(Spacing), DensityF = as_factor(Density))
+Vaccine = Vaccine |> mutate(Batch= as_factor(Batch))
 
 ## and include in data folder
 usethis::use_data(CabbageFlies, overwrite = TRUE)
