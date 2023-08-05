@@ -1,0 +1,16 @@
+### data from Kuehl 2000
+##      Examples and Exercises
+
+
+#'
+#' Data from Kuehl 2000
+#'
+#' Data for many examples and exercises from Kuehl (2000) was obtained in ASCII format and has been prepared for use as R data. More rigorous preparation will be required for many of the datasets.
+#'
+#' @rdname Kuehl2000
+#' @name Kuehl2000
+#' @format 
+#'     All data is stored as a data frame. N.B. Original filenames included minus signs which have been converted to underscores. In order ot remove confusion with data from other texts, all data names start with Kuehl_, e.g. EX2-1.csv is now Kuehl_EX2_1  
+#' @source Kuehl, R.O. (2000) \emph{Design of Experiments: Statistical Principles of Research Design and Analysis}, Second edition, Duxbury Press.
+#' @author contributed by A. Jonathan R. Godfrey
+NULL

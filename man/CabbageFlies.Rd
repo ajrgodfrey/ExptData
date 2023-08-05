@@ -12,7 +12,7 @@ A data frame with thirty observations on the following three variables.
 }
 }
 \source{
-Mead, R. (1988) "The Design of Experiments: Statistical Principles for Practical Applications", Cambridge University Press. Example 7.10; data found in  Table 7.3 on page 145.
+Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press. Example 7.10; data found in  Table 7.3 on page 145.
 }
 \usage{
 CabbageFlies

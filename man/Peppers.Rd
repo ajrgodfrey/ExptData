@@ -15,7 +15,7 @@ A data frame with 24 observations on the following 6 variables.
 }
 }
 \source{
-Mead, R. (1988) "The Design of Experiments: Statistical Principles for Practical Applications", Cambridge University Press. Example 7.11; data found in Table 7.7 on page 148.
+Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press. Example 7.11; data found in Table 7.7 on page 148.
 }
 \usage{
 Peppers

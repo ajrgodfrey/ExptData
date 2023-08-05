@@ -15,7 +15,7 @@ A data frame with sixty observations on the following six variables.
 }
 }
 \source{
-Mead, R. (1988) "The Design of Experiments: Statistical Principles for Practical Applications", Cambridge University Press. Example 12.3; data found in  Table 12.9 on page 323.
+Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press. Example 12.3; data found in  Table 12.9 on page 323.
 }
 \usage{
 Turnip

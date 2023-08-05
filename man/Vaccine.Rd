@@ -15,7 +15,7 @@ A data frame with twelve observations on the following six variables.
 }
 }
 \source{
-Mead, R. (1988) "The Design of Experiments: Statistical Principles for Practical Applications", Cambridge University Press. Example 11.1; data found in table 11.7 on page 289.
+Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press. Example 11.1; data found in table 11.7 on page 289.
 }
 \usage{
 Vaccine

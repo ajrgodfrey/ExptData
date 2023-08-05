@@ -14,7 +14,7 @@ A data frame with 36 observations on the following five variables.
 }
 }
 \source{
-Mead, R. (1988) "The Design of Experiments: Statistical Principles for Practical Applications", Cambridge University Press. Example 12.4; data found in  Table 12.13 on page 329.
+Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press. Example 12.4; data found in  Table 12.13 on page 329.
 }
 \usage{
 Detergent

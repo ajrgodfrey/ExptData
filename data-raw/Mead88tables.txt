@@ -1,0 +1,77 @@
+to type out please
+
+2.2 p13 rice grain spacing
+
+3.2 frogs and toads p39
+
+
+4.1 tomato p46
+
+5.1 cowpea yeilds p92
+in agridat as mead.cowpea.maize
+
+8.13 p211 milk yield
+
+8.14 p212 rheumatism
+
+
+Ex9.1 p242 8 pigs 5 standard 3 new diets 9,17,11,16,18 and 15,19,16
+
+9.10  p242
+
+
+
+
+10.16 brussel sprouts p270
+
+10.17 bacteria p271
+
+10.18 herbacide p273
+
+11.1 seed germination p275
+mead.germination in agridat
+
+
+
+11.22 BollWeevils p301
+
+11.23  broilers p302
+
+11.24 p303
+
+
+12.18 bioassay p341
+
+12.22 aerosol p344
+
+13.2 amphibians p351
+ has 4 results per combination
+species (toad/frog) moisture (wet/dry) hormone (control/hormone)  effect
+
+13.9 maize p358
+variety a/b infestation y/n fertiliser (4) (0/P/PM/PNK and two blocks
+
+
+
+13.15 salmanella  p369
+3x6x6
+
+
+
+14.11 rat growth p411
+
+
+14.14 cowpeas p417
+
+
+
+type out 15.18 p468
+make headings for rep, block a b and  yield
+add num brers below given in table
+
+Lettuce fig16.19 p511
+type out the details with headings block N P K and yield
+
+
+
+
