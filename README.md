@@ -37,6 +37,13 @@ library(ExptData)
 ```
 
 
+## Data from textbooks
+
+I have made use of the data provided on a publisher's website for a book if it was possible. These files are processed in bulk and are not given  individual scrutiny. This means that a dataset extracted from a book and given a meaningful name and having its data cleaned has its own help page.
+
+Books included like this are Kuehl (2000) and Box, Hunter, and Hunter (2005). Users of these texts know the full citation.
+
+
 ## Contributions
 
 Contributions are welcome. Please be very careful to supply:

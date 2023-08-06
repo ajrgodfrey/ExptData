@@ -2,7 +2,7 @@
 % Please edit documentation in R/Bhh2005Data.R
 \name{HearingAids}
 \alias{HearingAids}
-\title{Hearing Aids Data}
+\title{Hearing Aids Data from BHH2}
 \format{
 \if{html}{\out{<div class="sourceCode">}}\preformatted{A data frame with 48 observations on the following 4 variables.
 }\if{html}{\out{</div>}}
@@ -22,6 +22,10 @@ HearingAids
 }
 \description{
 Data are for the number of mistakes made during hearing tests by eight subjects using six different hearing aids. The subjects are classified into categories for their  hearing loss.
+}
+\examples{
+library(nlme)
+HearingAids.lme = lme(sqrt(Mistakes)~ Loss*Unit, random= ~1|Person, data=HearingAids)
 }
 \author{
 contributed by A. Jonathan R. Godfrey

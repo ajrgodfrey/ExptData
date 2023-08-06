@@ -13,7 +13,7 @@ A data frame with 86 observations on the following four variables.
 }
 }
 \source{
-Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press. Example 8.2; data found in Table 8.8 on page 200.
+Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press. Example 8.2; data found in Table 8.8 on page 200, and repeated in Table 10.5 on page 254.
 }
 \usage{
 PainRelief

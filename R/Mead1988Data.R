@@ -1,5 +1,23 @@
 ### Data from Mead 1988
-##        CabbageFlies, Detergent, PainRelief, Peppers, Turnip, Vaccine
+##        Abrasion, CabbageFlies, Detergent, GLCompetition, PainRelief, Peppers, Turnip, Vaccine
+
+
+#'
+#' Abrasion data
+#'
+#' Data from a 2^5 experiment. 
+#'
+#' @rdname Abrasion
+#' @name Abrasion
+#' @format 
+#'   A data frame with observations on the following variables.
+#'   \describe{
+#' }
+#' @source Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press. Data found in table 13.28 on page 380.
+#' @author contributed by A. Jonathan R. Godfrey
+#' @usage Abrasion
+NULL
+
 
 
 #'
@@ -44,6 +62,24 @@ NULL
 #' @author contributed by A. Jonathan R. Godfrey
 #' @usage Detergent
 NULL
+
+
+#'
+#' Grass-Legume Competition data
+#'
+#' Data from a split plot experiment. Three factors tested at the whole plot level are grass type, legume type, and cutting regime. The proportion of grass to legume is the subplot factor.
+#'
+#' @rdname GLCompetition
+#' @name GLCompetition
+#' @format 
+#'   A data frame with observations on the following variables.
+#'   \describe{
+#' }
+#' @source Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press. Data found in table 14.15 on page 418.
+#' @author contributed by A. Jonathan R. Godfrey
+#' @usage GLCompetition
+NULL
+
 
 
 
