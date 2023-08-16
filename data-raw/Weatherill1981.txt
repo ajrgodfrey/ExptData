@@ -1,0 +1,39 @@
+
+
+Table 5.1 p104
+y is %yield
+x1 specific gravity, x2 crude oil vapour pressure (psi), x3 ASTEM 10% distillation point (degF), x4 petroleum endpoint (degF)
+
+
+Table 8.1 p177
+four groups are for for four strains of fungus growing on wooden blocks
+R is retention level of preservative 
+W is weight loss %.
+was not possible to fix R at definite target values
+
+
+Table 12.1 p247
+4 root stocks, each has 9 trees
+W is the log(circumference at base), X is log(circumference at top of trunk), and Y is the log(Weight above ground)
+
+Table 13.13 p273
+RCB 4 blocks of 6 treatments. A is the control.
+response  is count of poppy plants (not sure if that is good or bad)
+variance stabilisation required
+
+Table15.1 p307
+10 batches of wet brewer's yeast, dried for 3,6, or 9 hours. There are two samples per batch/time combination.
+response is %total solid content of yeast
+
+Table 16.1 p332
+force to separate connectors
+5 connectors pulled apart at 4 angles, 5 trials each.
+Lemus, F.  1960 "a mixed model factorial experiment in testing electrical connectors" Ind Qual Cont 17 pp2-16.
+
+Table 16.8 p340
+wind test puts rough surfaced pipe inside a smooth pipe and tests wind.
+response is distance cto position of maximum velocity
+A is rib height, B is rib pitch, and C is Reynolds' number. 
+
+appendix B has list of data sources
+lots of journal articles

@@ -5,13 +5,15 @@
 #'
 #' Drilling Data
 #'
-#' 
+#' 2^4 factorial experiment that studies the effects of drill load (factor A), flow rate (factor B), rotational speed (factor C), and type of mud (factor D) 
+#' on the advance rate for an oil drill.
 #'
 #' @rdname Drilling
 #' @name Drilling
 #' @format 
 #'     A data frame with observations on the following variables.
 #' @source https://doi.org/10.1080/08982112.2011.535696    
+#' @references Montgomery DAE problem 15.2 (Example 6.3), QualEng, Daniel
 #' @author contributed by A. Jonathan R. Godfrey
 #' @usage Drilling
 NULL

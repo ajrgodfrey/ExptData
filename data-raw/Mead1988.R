@@ -1,11 +1,7 @@
 ### Data from Mead 1988
 ##     Abrasion, CabbageFlies, Detergent, GLCompetition, PainRelief, Peppers, Turnip, Vaccine
 
-Std16Runs = data.frame(expand.grid(A=c(-1,1), B=c(-1,1), C=c(-1,1), D=c(-1,1))) |> 
-    mutate(StdOrder=1:16)
-
-Std32Runs = data.frame(expand.grid(A=c(-1,1), B=c(-1,1), C=c(-1,1), D=c(-1,1), E=c(-1,1))) |> 
-    mutate(StdOrder=1:32)
+source("data-raw/General.R")
 
 library(dplyr)
 library(forcats)

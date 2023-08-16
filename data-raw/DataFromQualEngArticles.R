@@ -1,17 +1,20 @@
 library(dplyr)
 library(forcats)
 
-Std8Runs = data.frame(expand.grid(A=c(-1,1), B=c(-1,1), C=c(-1,1))) |> 
-    mutate(StdOrder=1:8)
-usethis::use_data(Std8Runs, overwrite = TRUE)
+source("data-raw/General.R")
 
-Std16Runs = data.frame(expand.grid(A=c(-1,1), B=c(-1,1), C=c(-1,1), D=c(-1,1))) |> 
-    mutate(StdOrder=1:16)
-usethis::use_data(Std16Runs, overwrite = TRUE)
 
-Std32Runs = data.frame(expand.grid(A=c(-1,1), B=c(-1,1), C=c(-1,1), D=c(-1,1), E=c(-1,1))) |> 
-    mutate(StdOrder=1:32)
-usethis::use_data(Std32Runs, overwrite = TRUE)
+#' @source Bisgaard, S. and Fuller, H.T. (1994) "Quality Quandaries: Analysis of Factorial Experiments with Defects or Defectives as the Response." \emph{Quality Engineering} \bf{7}(2), pp429-443.          https://doi.org/10.1080/08982119408918794    
+#' Data found in Table 2 on page 436.
+BF94_Tab2 = Std16Runs |> 
+    mutate(Prop =c(0.958,1,0.977,0.775,0.958,0.958,0.813,0.906,0.679,0.781,1,0.896,0.958,0.818,0.841,0.955),
+      E=C*D, F=B*D, G=B*C, H=A*C, J=A*B, K=A*B*C)
+usethis::use_data(BF94_Tab2, overwrite = TRUE)
+#' Data from Table 3 on page 440   
+BF94_Tab3 = Std16Runs |>
+    mutate(Count = c(56,17,2,4,3,4,50,2,1,0,3,12,3,4,0,0),
+      E=B*D   , F=B*C*D   , G=A*C   , H=A*C*D   , J=A*B   , BG=B*G)
+usethis::use_data(BF94_Tab3, overwrite = TRUE)
 
 # https://doi.org/10.1080/08982119708919097    
 GrandmasCake  = Std8Runs |> 
@@ -53,7 +56,6 @@ Ethanol = data.frame(expand.grid(A=c(-1,1), B=c(-1,1), C=c(-1,1))) |>
 usethis::use_data(Ethanol, overwrite = TRUE)
 
 # Bisgaard 4 level factor
-# 
 Lenses = Std16Runs |>
     mutate(Type = as_factor(paste0(A,B)),
       Nondefectives = c(48, 36, 45, 60, 55, 24, 41, 63, 42, 64, 57, 46, 54, 66, 52, 50)) |>
@@ -76,4 +78,14 @@ Washing  = Std16Runs |>
     mutate(Impurity = c(4.2, 2.7, 1.4, 1.3, 3.3, 3.5, 1.3, 1.9, 2.2, 3.1, 4, 4.1, 5, 3, 2.2, 2.6),
       Indicator = c(0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0)) |>
     rename(FirstWash=A, Boiling=B, FinalWash=C, Solvent=D)
-usethis::use_data(Washing , overwrite = TRUE)
+usethis::use_data(Washing, overwrite = TRUE)
+
+# used a lot See R178 and below
+# https://doi.org/10.1080/08982110108918680
+# https://doi.org/10.1080/08982112.2016.1243248 
+CakeMix = read.csv("https://R-Resources.massey.ac.nz/data/BHH2005/prb1305.csv") |>
+# data(BHH2_prb1305, package="ExptData") |>
+    mutate(Recipe = as.factor(2 + 0.5*(S+1) + F + 2*(E+1))) |>  
+    mutate(Check=F*S*E*T*t) |> filter(Check!=0) |> select(-run, -Check) |>
+    rename(Flour=F, Shortening=S, Egg=E)
+usethis::use_data(CakeMix, overwrite = TRUE)
