@@ -20,9 +20,13 @@ Curation includes:
 
 You can install the development version of ExptData using:
 
+
+
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("devtools")
+devtools::install_github("ajrgodfrey/ExptData")
 ```
+
 
 ## Example
 
