@@ -12,7 +12,7 @@ Trout = data.frame(T1=c(6.7,7.8,5.5,8.4,7.0,7.8,8.6,7.4,5.8,7.0),
   )  |>
   pivot_longer(T1:T4, values_to="Hemoglobin", names_to="Trough") |>
   mutate(Trough = as_factor(Trough))
-usethis::use_data(Trout, overwrite=FALSE)
+#usethis::use_data(Trout, overwrite=TRUE)
 
 # table 7.22 
 NorthStar  = read.csv("data-raw/DeanVosseCSV/Manganese.csv") |>
@@ -25,7 +25,7 @@ NorthStar  = read.csv("data-raw/DeanVosseCSV/Manganese.csv") |>
 #C: Placement of sample (sample edge tangential to edge of disk, sample completely covering disk, sample partially covering disk). 
 #D: Wear of boron nitride disk (new, one month old). 
 #E: Sharpness of counterelectrode tip (newly sharpened, one week’s wear). 
-usethis::use_data(NorthStar, overwrite=FALSE)
+#usethis::use_data(NorthStar, overwrite=TRUE)
 
 # table 7.26
 SteelBarCutting = read.csv("data-raw/DeanVosseCSV/SteelBarCutting.csv") |>
@@ -33,30 +33,30 @@ SteelBarCutting = read.csv("data-raw/DeanVosseCSV/SteelBarCutting.csv") |>
     pivot_longer(y1jk1:y1jk4, values_to="CutDiff", names_to="yjk") |>
   separate_wider_position(yjk, widths=c(4, JK=1), cols_remove=TRUE) |>
   mutate(across(A:JK, as_factor))
-usethis::use_data(SteelBarCutting, overwrite=FALSE)
+#usethis::use_data(SteelBarCutting, overwrite=TRUE)
 
 #
 HandWheel = read.csv("data-raw/DeanVosseCSV/HandWheel.csv", blank.lines.skip=TRUE) |>
   mutate(across(A:G, ~.*2)) |>
   mutate(across(Block:G, as_factor))
-usethis::use_data(HandWheel, overwrite=FALSE)
+usethis::use_data(HandWheel, overwrite=TRUE)
 
 
 #
 BeefTender = read.csv("data-raw/DeanVosseCSV/Beef.csv", blank.lines.skip=TRUE) |>
   mutate(across(Block:Treatment, as_factor))
-usethis::use_data(BeefTender, overwrite=FALSE)
+#usethis::use_data(BeefTender, overwrite=TRUE)
 
 
 #
 DairyCow = read.csv("data-raw/DeanVosseCSV/dairy.cow.csv", blank.lines.skip=TRUE) |>
   mutate(across(Cow:Diet, as_factor))
-usethis::use_data(DairyCow, overwrite=FALSE)
+usethis::use_data(DairyCow, overwrite=TRUE)
 
 
 
 #
-Field = read.csv("data-raw/DeanVosseCSV/field.csv", blank.lines.skip=TRUE) |>
-  mutate(across(Cow:Diet, as_factor))
-usethis::use_data(Field, overwrite=FALSE)
+Field = read.csv("data-raw/DeanVosseCSV/field.csv", blank.lines.skip=TRUE)# |>
+#  mutate(across(Cow:Diet, as_factor))
+usethis::use_data(Field, overwrite=TRUE)
 

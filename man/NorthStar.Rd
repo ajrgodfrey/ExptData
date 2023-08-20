@@ -4,13 +4,25 @@
 \alias{NorthStar}
 \title{North Star Steel Iowa Data on manganese}
 \source{
-Dean and Vosse
+adapted from files found at \url{http://deanvossdraguljic.ietsandbox.net/DeanVossDraguljic/R-data.html}
 }
 \usage{
 NorthStar
 }
 \description{
-North Star Steel Iowa Data on manganese
+Table 7.22.
+}
+\details{
+The factors and their selected experimental levels were:
+A: Temperature of the lab. (67.,72.,77.).
+B: Cleanliness of entrance window seal (clean, one week’s use).
+C: Placement of sample (sample edge tangential to edge of disk, sample completely covering disk, sample partially covering disk).
+D: Wear of boron nitride disk (new, one month old).
+E: Sharpness of counterelectrode tip (newly sharpened, one week’s wear).
+}
+\references{
+Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+Dean, Voss, and Draguljić (2017) \emph{Design and Analysis of Experiments}, Second edition, , Springer-Verlag New York.
 }
 \author{
 Contributed by A. Jonathan R. Godfrey

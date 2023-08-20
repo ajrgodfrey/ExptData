@@ -3,8 +3,7 @@
 ##      HandWheel, NorthStar, SteelBarCutting, Trout
 
 
-#'
-Hand Wheel Data 
+#' Hand Wheel Data 
 #'
 #'
 #'
@@ -57,7 +56,7 @@ NULL
 
 
 #'
-Trout Data 
+#' Trout Data 
 #'
 #'Table 3.13 Data for the Trout Experiment. The response variable is Hemoglobin (grams per 100 ml). 
 #'
