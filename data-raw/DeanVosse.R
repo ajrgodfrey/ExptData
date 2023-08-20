@@ -41,3 +41,22 @@ HandWheel = read.csv("data-raw/DeanVosseCSV/HandWheel.csv", blank.lines.skip=TRU
   mutate(across(Block:G, as_factor))
 usethis::use_data(HandWheel, overwrite=FALSE)
 
+
+#
+BeefTender = read.csv("data-raw/DeanVosseCSV/Beef.csv", blank.lines.skip=TRUE) |>
+  mutate(across(Block:Treatment, as_factor))
+usethis::use_data(BeefTender, overwrite=FALSE)
+
+
+#
+DairyCow = read.csv("data-raw/DeanVosseCSV/dairy.cow.csv", blank.lines.skip=TRUE) |>
+  mutate(across(Cow:Diet, as_factor))
+usethis::use_data(DairyCow, overwrite=FALSE)
+
+
+
+#
+Field = read.csv("data-raw/DeanVosseCSV/field.csv", blank.lines.skip=TRUE) |>
+  mutate(across(Cow:Diet, as_factor))
+usethis::use_data(Field, overwrite=FALSE)
+
