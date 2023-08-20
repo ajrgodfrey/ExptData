@@ -22,7 +22,8 @@ NULL
 #' 
 #' @rdname Taguchi8
 #' @name Taguchi8
-#' @aliases Taguchi16#' @format a dataframe with a column for each factor and 2^k rows, all 2^k -1 columns for the full set of main and interaction effects , where k=3 or 4
+#' @aliases Taguchi16
+#' @format a dataframe with a column for each factor and 2^k rows, all 2^k -1 columns for the full set of main and interaction effects , where k=3 or 4
 #' @source Take your pick. 
 #' @author created by A. Jonathan R. Godfrey, to whom no credit for these datasets  is justified.
 NULL
