@@ -1,0 +1,19 @@
+*Article*: 
+A two-level unreplicated factorial experiment to determine the effect of organic and inorganic fertilizers on dry matter yield of permanent pasture 
+
+by T. Astatkie, A.A. Joseph and R.C. Martin 
+
+*Renewable Agriculture and Food Systems*, Volume 21, Issue 2 , June 2006, pp. 106-113 DOI: https://doi.org/10.1079/RAF2005133
+
+https://www.cambridge.org/core/journals/renewable-agriculture-and-food-systems/article/twolevel-unreplicated-factorial-experiment-to-determine-the-effect-of-organic-and-inorganic-fertilizers-on-dry-matter-yield-of-permanent-pasture/D6ED9D2CB2D25264C77538C986BBA431
+
+Response variables studied: Mean yields (kg/h) over 3 different harvests
+
+Factors: N, K, Compost, and Seaweed. 
+
+Design: A $2^4$ single replicate was employed .
+
+Expt1 = Std16Runs |>
+    rename(Seaweed=A, Compost=B, K=C, N=A) |>
+    mutate(Yield = c(1738, 2196, 1864, 1742, 2046, 2154, 1530, 2364, 
+        2166, 1890, 2068, 2572, 1720, 2442, 1756, 2020))

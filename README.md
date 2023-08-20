@@ -8,7 +8,9 @@ The goal of ExptData is to bring publicly available data sets together in a  cur
 
 Some data was manually entered, while other sets were found online. Regardless of the way data came to the package, a book or journal  will be cited as the source.
 
-In general, this package will not duplicate efforts made in such packages as `agridat`, or packages dedicated to specific books. Exceptions are those datasets whose best presentation in other packages still requires significant curation. 
+Absolutely no claims are made over the ownership of the data included in this package.
+
+In general, this package will not duplicate efforts made in such packages as `agridat`, or packages dedicated to specific books. Exceptions are those datasets whose best presentation in other packages still requires significant curation before providing them for undergraduate student use. 
 
 Curation includes:
 - meaningful dataset and variable names;
