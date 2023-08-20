@@ -2,34 +2,11 @@
 % Please edit documentation in R/General.R
 \name{Taguchi8}
 \alias{Taguchi8}
-\alias{Taguchi16#'}
-\alias{@format}
-\alias{a}
-\alias{dataframe}
-\alias{with}
-\alias{column}
-\alias{for}
-\alias{each}
-\alias{factor}
-\alias{and}
-\alias{2^k}
-\alias{rows,}
-\alias{all}
-\alias{-1}
-\alias{columns}
-\alias{the}
-\alias{full}
-\alias{set}
-\alias{of}
-\alias{main}
-\alias{interaction}
-\alias{effects}
-\alias{,}
-\alias{where}
-\alias{k=3}
-\alias{or}
-\alias{4}
+\alias{Taguchi16}
 \title{Unreplicated 2^k Experiments in Taguchi form}
+\format{
+a dataframe with a column for each factor and 2^k rows, all 2^k -1 columns for the full set of main and interaction effects , where k=3 or 4
+}
 \source{
 Take your pick.
 }
