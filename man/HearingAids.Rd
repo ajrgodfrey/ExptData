@@ -14,9 +14,6 @@
 \item{\code{Mistakes}}{a numeric vector}
 }
 }
-\source{
-Box, G.E.P., Hunter, J.S., and Hunter, W.G. (2005) \emph{Statistics for Experimenters: Design Innovation, and Discovery}, 2nd edition, Wiley, New Jersey.
-}
 \usage{
 HearingAids
 }
@@ -26,6 +23,9 @@ Data are for the number of mistakes made during hearing tests by eight subjects 
 \examples{
 library(nlme)
 HearingAids.lme = lme(sqrt(Mistakes)~ Loss*Unit, random= ~1|Person, data=HearingAids)
+}
+\references{
+Box, G.E.P., Hunter, J.S., and Hunter, W.G. (2005) \emph{Statistics for Experimenters: Design Innovation, and Discovery}, 2nd edition, Wiley, New Jersey.
 }
 \author{
 contributed by A. Jonathan R. Godfrey

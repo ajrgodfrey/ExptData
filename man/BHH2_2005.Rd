@@ -7,11 +7,14 @@
 \if{html}{\out{<div class="sourceCode">}}\preformatted{All data is stored as a data frame. In order to remove confusion with data from other texts, all data names start with BHH2_, e.g. exe0202.csv is now BHH2_exe0202  
 }\if{html}{\out{</div>}}
 }
-\source{
-Box, G.E.P., Hunter, J.S., and Hunter, W.G. (2005) \emph{Statistics for Experimenters: Design Innovation, and Discovery}, 2nd edition, Wiley, New Jersey.
-}
 \description{
 Data for many examples and exercises from BHH2 (2005) was obtained in ASCII format and has been prepared for use as R data. More rigorous preparation will be required for many of the datasets.
+}
+\references{
+Box, G.E.P., Hunter, J.S., and Hunter, W.G. (2005) \emph{Statistics for Experimenters: Design Innovation, and Discovery}, 2nd edition, Wiley, New Jersey.
+}
+\seealso{
+\link{HearingAids} \link{Wool}
 }
 \author{
 contributed by A. Jonathan R. Godfrey

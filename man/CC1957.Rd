@@ -13,7 +13,15 @@ The data has been cleaned if it is mentioned here.
 Cochran, W.G. and Cox, G.M.  (1957) \emph{Experimental Designs}, Second edition, John Wiley & Sons, New York.
 }
 \seealso{
-BeefTender, DairyCow, Field
+Beans, Table 11.1 p444 BeefTender, DairyCow,
+Table 3.1 on page 46 \code{agridat::cochran.eelworms} gives counts of eelworms before and after fumigant treatments;
+Table 4.1 on page 97 \code{agridat::cochran.crd} has potato scab infection with sulfur treatments;
+Table 4.7 on page 122 \code{agridat::cochran.latin} is a Latin square design in wheat;
+Table 6.3 on page 189 \link{Beans} and \code{agridat::cochran.factorial} is a factorial experiment for bean yield;
+Table 7.5 on page 300 \code{faraway::choccake} is a chocolate cake experiment with a split plot design;
+Table 11.2 on page 448 \code{agridat::cochran.bib} is a multi-environment trial of corn in a  balanced incomplete block design;
+Table 11.1a on page 453 \code{AlgDesign::CCTable11.1a};
+Table 12.5 on page 490 \code{agridat::cochran.lattice} is a balanced lattice experiment in bool weevil attacks on cotton.
 }
 \author{
 contributed by Jonathan Godfrey

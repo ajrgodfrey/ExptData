@@ -11,8 +11,9 @@
 #' @name BHH2_2005
 #' @format 
 #'     All data is stored as a data frame. In order to remove confusion with data from other texts, all data names start with BHH2_, e.g. exe0202.csv is now BHH2_exe0202  
-#' @source Box, G.E.P., Hunter, J.S., and Hunter, W.G. (2005) \emph{Statistics for Experimenters: Design Innovation, and Discovery}, 2nd edition, Wiley, New Jersey.
+#' @references Box, G.E.P., Hunter, J.S., and Hunter, W.G. (2005) \emph{Statistics for Experimenters: Design Innovation, and Discovery}, 2nd edition, Wiley, New Jersey.
 #' @author contributed by A. Jonathan R. Godfrey
+#' @seealso \link{HearingAids} \link{Wool}
 NULL
 
 #'
@@ -30,7 +31,7 @@ NULL
 #'    \item{\code{Unit}}{a factor with levels \code{A} to \code{F}}
 #'    \item{\code{Mistakes}}{a numeric vector}
 #' }
-#' @source Box, G.E.P., Hunter, J.S., and Hunter, W.G. (2005) \emph{Statistics for Experimenters: Design Innovation, and Discovery}, 2nd edition, Wiley, New Jersey.
+#' @references Box, G.E.P., Hunter, J.S., and Hunter, W.G. (2005) \emph{Statistics for Experimenters: Design Innovation, and Discovery}, 2nd edition, Wiley, New Jersey.
 #' @author contributed by A. Jonathan R. Godfrey
 #' @usage HearingAids
 #' @examples
@@ -55,8 +56,7 @@ NULL
 #'    \item{\code{Load}}{a numeric vector}
 #'    \item{\code{Cycles}}{a numeric vector}
 #' }
-#' @source Box, G.E.P., Hunter, J.S., and Hunter, W.G. (2005) \emph{Statistics for Experimenters: Design Innovation, and Discovery}, 2nd edition, Wiley, New Jersey.
-#' @section References:
+#' @references Box, G.E.P., Hunter, J.S., and Hunter, W.G. (2005) \emph{Statistics for Experimenters: Design Innovation, and Discovery}, 2nd edition, Wiley, New Jersey.
 #'  G.E.P. and D.R. Cox (1964) \dQuote{An Analysis of Transformations (with discussion)}, \emph{Journal of the Royal Statistical Society, Series B} \bold{26}, pp.211--246.
 #' @author contributed by A. Jonathan R. Godfrey
 #' @usage Wool
