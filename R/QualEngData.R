@@ -12,7 +12,7 @@
 #' @name Drilling
 #' @format 
 #'     A data frame with observations on the following variables.
-#' @source https://doi.org/10.1080/08982112.2011.535696    
+#' @source \url{https://doi.org/10.1080/08982112.2011.535696}    
 #' @references Montgomery DAE problem 15.2 (Example 6.3), QualEng, Daniel
 #' @author contributed by A. Jonathan R. Godfrey
 #' @usage Drilling
@@ -27,7 +27,7 @@ NULL
 #' @name Ethanol
 #' @format 
 #'     A data frame with observations on the following variables.
-#' @source https://doi.org/10.1080/08982112.2013.817013    
+#' @source \url{https://doi.org/10.1080/08982112.2013.817013}    
 #' @author contributed by A. Jonathan R. Godfrey
 #' @usage Ethanol
 NULL
@@ -45,7 +45,7 @@ NULL
 #' the run order;
 #' a blocking variable, Block;
 #' the Rating of each recipe.
-#' @source https://doi.org/10.1080/08982119708919097    
+#' @source \url{https://doi.org/10.1080/08982119708919097}    
 #' @author contributed by A. Jonathan R. Godfrey
 #' @usage GrandmasCake
 NULL
@@ -60,7 +60,7 @@ NULL
 #' @name InaTile
 #' @format 
 #'     A data frame with observations on the following variables.
-#' @source https://doi.org/10.1081/QEN-120020782        
+#' @source \url{https://doi.org/10.1081/QEN-120020782}        
 #' @author contributed by A. Jonathan R. Godfrey
 #' @usage InaTile
 NULL
@@ -90,7 +90,7 @@ NULL
 #' @name VoidCount
 #' @format 
 #'     A data frame with observations on the following variables.
-#' @source https://doi.org/10.1080/08982110600846531   
+#' @source \url{https://doi.org/10.1080/08982110600846531}   
 #' @author contributed by A. Jonathan R. Godfrey
 #' @usage VoidCount
 NULL
@@ -105,7 +105,7 @@ NULL
 #' @name Washing
 #' @format 
 #'     A data frame with observations on the following variables.
-#' @source https://doi.org/10.1081/QEN-200029007    
+#' @source \url{https://doi.org/10.1081/QEN-200029007}    
 #' @author contributed by A. Jonathan R. Godfrey
 #' @usage Washing
 NULL
