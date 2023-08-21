@@ -7,6 +7,14 @@
 #' @details The data has been cleaned if it is mentioned here. 
 #' @references   Cochran, W.G. and Cox, G.M.  (1957) \emph{Experimental Designs}, Second edition, John Wiley & Sons, New York. 
 #' @author contributed by Jonathan Godfrey
-#' @seealso BeefTender, DairyCow, Field
+#' @seealso Beans, Table 11.1 p444 BeefTender, DairyCow, 
 NULL
 
+# Table 11.2 on page 448 appears in agridat::cochran.bib
+# faraway::chocolatecake
+
+# agridat::cochran.crd
+
+# add Beans here p189
+
+# 

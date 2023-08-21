@@ -39,24 +39,27 @@ SteelBarCutting = read.csv("data-raw/DeanVosseCSV/SteelBarCutting.csv") |>
 HandWheel = read.csv("data-raw/DeanVosseCSV/HandWheel.csv", blank.lines.skip=TRUE) |>
   mutate(across(A:G, ~.*2)) |>
   mutate(across(Block:G, as_factor))
-usethis::use_data(HandWheel, overwrite=TRUE)
+#usethis::use_data(HandWheel, overwrite=TRUE)
 
 
-#
+# cc57 Table page 
 BeefTender = read.csv("data-raw/DeanVosseCSV/Beef.csv", blank.lines.skip=TRUE) |>
   mutate(across(Block:Treatment, as_factor))
 #usethis::use_data(BeefTender, overwrite=TRUE)
 
 
 #
+# cc57 Table 4.8a page 135
 DairyCow = read.csv("data-raw/DeanVosseCSV/dairy.cow.csv", blank.lines.skip=TRUE) |>
   mutate(across(Cow:Diet, as_factor))
-usethis::use_data(DairyCow, overwrite=TRUE)
+#usethis::use_data(DairyCow, overwrite=TRUE)
 
 
 
-#
-Field = read.csv("data-raw/DeanVosseCSV/field.csv", blank.lines.skip=TRUE)# |>
-#  mutate(across(Cow:Diet, as_factor))
-usethis::use_data(Field, overwrite=TRUE)
+# Field expeirment mentioned uses first rep of beans data. Block 2 in DV is A and Block 1 is B for some reason
+# cc57 Table 6.3 page 189
+# not to be used in this short form
 
+# Table 19.12 has arthritis data
+Arthritis = read.csv("data-raw/DeanVosseCSV/Arthritis.csv") 
+#usethis::use_data(Arthritis, overwrite=TRUE)
