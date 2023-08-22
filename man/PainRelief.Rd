@@ -7,19 +7,22 @@
 A data frame with 86 observations on the following four variables.
 \describe{
 \item{\code{Patient}}{a factor with levels \code{1} to \code{43}}
-\item{\code{Period}}{a factor with levels \code{1} \code{2}}
-\item{\code{Drug}}{a factor with levels \code{T1} \code{T2} \code{T3}}
+\item{\code{Period}}{a factor with levels \code{1} or \code{2}}
+\item{\code{Drug}}{a factor with levels \code{T1}, \code{T2}, or \code{T3}}
 \item{\code{Hours}}{the response variable}
 }
 }
 \source{
-Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press. Example 8.2; data found in Table 8.8 on page 200, and repeated in Table 10.5 on page 254.
+Example 8.2; data found in Table 8.8 on page 200, and repeated in Table 10.5 on page 254.
 }
 \usage{
 PainRelief
 }
 \description{
 Data from a two-period crossover experiment. 43 patients were given two of three treatments.
+}
+\references{
+Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press.
 }
 \author{
 contributed by A. Jonathan R. Godfrey

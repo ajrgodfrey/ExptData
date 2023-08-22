@@ -6,19 +6,22 @@
 \format{
 A data frame with thirty observations on the following three variables.
 \describe{
-\item{\code{Substance}}{a factor with levels \code{1} \code{2} \code{3} \code{4} \code{5} \code{6}}
-\item{\code{Block}}{a factor with levels \code{1} \code{2} \code{3} \code{4} \code{5} \code{6} \code{7} \code{8} \code{9} \code{10}}
+\item{\code{Substance}}{a factor with levels \code{1} to \code{6}}
+\item{\code{Block}}{a factor with levels \code{1} to \code{10}}
 \item{\code{Eggs}}{the response variable; a count}
 }
 }
 \source{
-Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press. Example 7.10; data found in  Table 7.3 on page 145.
+Example 7.10; data found in  Table 7.3 on page 145.
 }
 \usage{
 CabbageFlies
 }
 \description{
 Data from an experiment into the effectiveness of six substances to attract cabbage root flies. An incomplete block design  with ten blocks of three units was used.
+}
+\references{
+Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press.
 }
 \author{
 contributed by A. Jonathan R. Godfrey

@@ -7,7 +7,7 @@
 A data frame with sixty observations on the following six variables.
 \describe{
 \item{\code{Yield}}{the response variable}
-\item{\code{Block}}{a factor with levels \code{B1} \code{B2} \code{B3}}
+\item{\code{Block}}{a factor with levels \code{B1} to \code{B3}}
 \item{\code{Spacing}}{four levels stored numerically}
 \item{\code{Density}}{five levels stored numerically}
 \item{\code{SpacingF}}{a factor with levels \code{4} \code{8} \code{16} \code{32}}
@@ -15,13 +15,16 @@ A data frame with sixty observations on the following six variables.
 }
 }
 \source{
-Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press. Example 12.3; data found in  Table 12.9 on page 323.
+Example 12.3; data found in  Table 12.9 on page 323.
 }
 \usage{
 Turnip
 }
 \description{
 Data from a ... experiment
+}
+\references{
+Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press.
 }
 \author{
 contributed by A. Jonathan R. Godfrey

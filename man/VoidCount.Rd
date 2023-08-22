@@ -8,7 +8,7 @@
 }\if{html}{\out{</div>}}
 }
 \source{
-https://doi.org/10.1080/08982110600846531
+\url{https://doi.org/10.1080/08982110600846531}
 }
 \usage{
 VoidCount

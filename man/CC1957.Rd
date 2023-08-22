@@ -7,22 +7,24 @@
 Datasets from Cochran and Cox (1957) are found in a variety of places. Not all sources state which tables they have used from the original source so some digging was required.
 }
 \details{
-The data has been cleaned if it is mentioned here.
+The data has been cleaned if it is included in this package; other sources are mentioned here.
 }
 \references{
 Cochran, W.G. and Cox, G.M.  (1957) \emph{Experimental Designs}, Second edition, John Wiley & Sons, New York.
 }
 \seealso{
-Beans, Table 11.1 p444 BeefTender, DairyCow,
+DairyCow,
 Table 3.1 on page 46 \code{agridat::cochran.eelworms} gives counts of eelworms before and after fumigant treatments;
 Table 4.1 on page 97 \code{agridat::cochran.crd} has potato scab infection with sulfur treatments;
 Table 4.7 on page 122 \code{agridat::cochran.latin} is a Latin square design in wheat;
-Table 6.3 on page 189 \link{Beans} and \code{agridat::cochran.factorial} is a factorial experiment for bean yield;
+Table 6.3 on page 189 \link{CC57_Beans} and \code{agridat::cochran.factorial} is a factorial experiment for bean yield;
 Table 7.5 on page 300 \code{faraway::choccake} is a chocolate cake experiment with a split plot design;
+Table 11.1 p444 \link{BeefTender};
 Table 11.2 on page 448 \code{agridat::cochran.bib} is a multi-environment trial of corn in a  balanced incomplete block design;
 Table 11.1a on page 453 \code{AlgDesign::CCTable11.1a};
+Table 11.3a p. 456 \link{CC57_Cotton};
 Table 12.5 on page 490 \code{agridat::cochran.lattice} is a balanced lattice experiment in bool weevil attacks on cotton.
 }
 \author{
-contributed by Jonathan Godfrey
+contributed by A. Jonathan R. Godfrey
 }

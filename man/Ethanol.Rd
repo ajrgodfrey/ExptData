@@ -8,7 +8,7 @@
 }\if{html}{\out{</div>}}
 }
 \source{
-https://doi.org/10.1080/08982112.2013.817013
+\url{https://doi.org/10.1080/08982112.2013.817013}
 }
 \usage{
 Ethanol

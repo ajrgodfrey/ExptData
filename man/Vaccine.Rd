@@ -6,7 +6,7 @@
 \format{
 A data frame with twelve observations on the following six variables.
 \describe{
-\item{\code{Batch}}{a factor with levels \code{1} \code{2} \code{3} \code{4}}
+\item{\code{Batch}}{a factor with levels \code{1} to \code{4}}
 \item{\code{Tested}}{a response variable}
 \item{\code{Positive}}{a response variable}
 \item{\code{Area}}{a factor with levels \code{Cardiff} \code{Sheffield} \code{Staffordshire}}
@@ -15,13 +15,16 @@ A data frame with twelve observations on the following six variables.
 }
 }
 \source{
-Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press. Example 11.1; data found in table 11.7 on page 289.
+Example 11.1; data found in table 11.7 on page 289.
 }
 \usage{
 Vaccine
 }
 \description{
 Data from a ... experiment
+}
+\references{
+Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press.
 }
 \author{
 contributed by A. Jonathan R. Godfrey

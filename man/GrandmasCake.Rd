@@ -13,7 +13,7 @@ a blocking variable, Block;
 the Rating of each recipe.
 }
 \source{
-https://doi.org/10.1080/08982119708919097
+\url{https://doi.org/10.1080/08982119708919097}
 }
 \usage{
 GrandmasCake

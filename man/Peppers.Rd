@@ -10,18 +10,21 @@ A data frame with 24 observations on the following 6 variables.
 \item{\code{Lighting}}{a factor with levels \code{Extra} \code{Standard}}
 \item{\code{CO2}}{a factor with levels \code{Added} \code{c} \code{Control}}
 \item{\code{Year}}{a factor with levels \code{1} \code{2}}
-\item{\code{Block}}{a factor with levels \code{1} \code{2} \code{3} \code{4}}
+\item{\code{Block}}{a factor with levels \code{1} to \code{4}}
 \item{\code{Excess}}{the response variable}
 }
 }
 \source{
-Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press. Example 7.11; data found in Table 7.7 on page 148.
+Example 7.11; data found in Table 7.7 on page 148.
 }
 \usage{
 Peppers
 }
 \description{
 Data from a ... experiment
+}
+\references{
+Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press.
 }
 \author{
 contributed by A. Jonathan R. Godfrey

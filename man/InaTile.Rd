@@ -8,7 +8,7 @@
 }\if{html}{\out{</div>}}
 }
 \source{
-https://doi.org/10.1081/QEN-120020782
+\url{https://doi.org/10.1081/QEN-120020782}
 }
 \usage{
 InaTile

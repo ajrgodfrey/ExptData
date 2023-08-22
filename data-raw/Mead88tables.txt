@@ -6,30 +6,6 @@ seed germination 11.1 p275 mead.germination in agridat
 
 Ex9.1 p242 8 pigs 5 standard 3 new diets 9,17,11,16,18 and 15,19,16
 
-Lettuce_Potash  fig16.19 p511
-
-12.18 bioassay p341
-11.22 BollWeevils p301
-11.23  broilers p302
-14.14 cowpeas p417
-3.2 frogs and toads p39 N.B. Compare iwth similar table later on.
-10.18 herbacide p273
-Lettuces 15.18 p468
-13.9 maize p358
-variety a/b infestation y/n fertiliser (4) (0/P/PM/PNK and two blocks
-Note: variety (a/b), infestation (y/n), fertilizer (4) (O/P/PM/PNK) and two blocks
-14.11 rat growth p411
-8.14 p212 rheumatism Gaps in the table occur where patients were not available for observation at the relevant time.
-Table 2.2. p13  Yields of rice grain (kg per plot).
-13.15 salmanella  p369 water something
-
-
-
-4.1 tomato p46
-Treatment definitions were as follows: A: early spray 75 p.p.m; B: early spray 150 p.p.m; C: late spray 75 p.p.m; D: late spray 150 p.p.m; E: control
-looks like a Latin square
-WaterOrganism  11.24 p303
-
 ---
 
 8.13 p211 milk yield
@@ -39,9 +15,3 @@ seems flawed
 is this pigs?
 ---
 
-Aerosol Table 12.22 p344
-13.2 amphibians p351
-seems to be linked to tab 3.2
-has calculations for yates algorithm
-10.17 bacteria p271
-10.16 brussel sprouts p270

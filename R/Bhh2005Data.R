@@ -56,6 +56,7 @@ NULL
 #'    \item{\code{Load}}{a numeric vector}
 #'    \item{\code{Cycles}}{a numeric vector}
 #' }
+#' @source A digital copy was obtained as No. 402 of Hand et al. (1994).
 #' @references Box, G.E.P., Hunter, J.S., and Hunter, W.G. (2005) \emph{Statistics for Experimenters: Design Innovation, and Discovery}, 2nd edition, Wiley, New Jersey.
 #'  G.E.P. and D.R. Cox (1964) \dQuote{An Analysis of Transformations (with discussion)}, \emph{Journal of the Royal Statistical Society, Series B} \bold{26}, pp.211--246.
 #' @author contributed by A. Jonathan R. Godfrey

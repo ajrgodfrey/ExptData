@@ -8,13 +8,13 @@ A data frame with 36 observations on the following five variables.
 \describe{
 \item{\code{Block}}{a factor with levels \code{1} to \code{12}}
 \item{\code{Plates}}{the response variable; a count}
-\item{\code{Treatment}}{a factor with levels \code{1} \code{2} \code{3} \code{4} \code{5} \code{6} \code{7} \code{8} \code{9}}
+\item{\code{Treatment}}{a factor with levels \code{1} to \code{9}}
 \item{\code{Base}}{a factor with levels \code{I} \code{II} \code{None}}
 \item{\code{Additive}}{a factor with levels \code{0} \code{1} \code{2} \code{3} \code{Null}}
 }
 }
 \source{
-Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press. Example 12.4; data found in  Table 12.13 on page 329.
+Example 12.4; data found in  Table 12.13 on page 329.
 }
 \usage{
 Detergent
@@ -22,6 +22,13 @@ Detergent
 \description{
 Data from a plate washing experiment. This is an incomplete block design with 12 blocks of 3 runs to cover 9 treatments each done 4 times.
 The number of plates is counted until the foam disappears.
+}
+\details{
+Treatment: Nine formulations of detergent, 2 bases with 4 rates of additive
+Block structure: Three operators washed plates in parallel.  A block was 3 plates washed at the same time.
+}
+\references{
+Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press.
 }
 \author{
 contributed by A. Jonathan R. Godfrey

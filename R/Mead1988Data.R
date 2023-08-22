@@ -61,7 +61,7 @@ NULL
 #' }
 #' @details Treatment: Nine formulations of detergent, 2 bases with 4 rates of additive 
 #' Block structure: Three operators washed plates in parallel.  A block was 3 plates washed at the same time. 
-#' @source Example 12.4; data found in  Table 12.13 on page 329. 
+#' @source Example 12.4; data found in  Table 12.13 on page 329. A digital copy was obtained as No. 13 of Hand et al. (1994).
 #' @references Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press. 
 #' @author contributed by A. Jonathan R. Godfrey
 #' @usage Detergent
@@ -127,7 +127,7 @@ NULL
 #'     \item{\code{Excess}}{the response variable}
 #' }
 #' @references Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press. 
-#' @source Example 7.11; data found in Table 7.7 on page 148.
+#' @source Example 7.11; data found in Table 7.7 on page 148. A digital copy was obtained as No. 29 of Hand et al. (1994).
 #' @author contributed by A. Jonathan R. Godfrey
 #' @usage Peppers
 NULL
@@ -176,7 +176,8 @@ NULL
 #'    \item{\code{Needle}}{a factor with levels \code{Detachable} \code{Fixed}}
 #' }
 #' @references Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press. 
-#' @source Example 11.1; data found in table 11.7 on page 289.
+
+#' @source Example 11.1; data found in table 11.7 on page 289. A digital copy was obtained as No. 28 of Hand et al. (1994).
 #' @author contributed by A. Jonathan R. Godfrey
 #' @usage Vaccine
 NULL

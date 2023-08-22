@@ -9,13 +9,16 @@ A data frame with observations on the following variables.
 }
 }
 \source{
-Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press. Data found in table 13.28 on page 380.
+Data found in table 13.28 on page 380.
 }
 \usage{
 Abrasion
 }
 \description{
 Data from a 2^5 experiment.
+}
+\references{
+Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press.
 }
 \author{
 contributed by A. Jonathan R. Godfrey

@@ -9,13 +9,16 @@ A data frame with observations on the following variables.
 }
 }
 \source{
-Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press. Data found in table 14.15 on page 418.
+Data found in table 14.15 on page 418.
 }
 \usage{
 GLCompetition
 }
 \description{
 Data from a split plot experiment. Three factors tested at the whole plot level are grass type, legume type, and cutting regime. The proportion of grass to legume is the subplot factor.
+}
+\references{
+Mead, R. (1988) \emph{The Design of Experiments: Statistical Principles for Practical Applications}, Cambridge University Press.
 }
 \author{
 contributed by A. Jonathan R. Godfrey

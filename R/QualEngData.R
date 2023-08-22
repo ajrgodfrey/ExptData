@@ -43,7 +43,7 @@ NULL
 #'     A data frame with eight observations on the following variables.
 #' Factors for Egg (A), Sugar (B), and Flour (C);
 #' the run order;
-#' a blocking variable, Block;
+#' a blocking variable, \code{Block};
 #' the Rating of each recipe.
 #' @source \url{https://doi.org/10.1080/08982119708919097}    
 #' @author contributed by A. Jonathan R. Godfrey
