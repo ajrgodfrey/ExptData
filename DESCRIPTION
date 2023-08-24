@@ -1,6 +1,6 @@
 Package: ExptData
 Title: Datasets used in Teaching/Learning Experimental Design
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: 
     person("A. Jonathan R.", "Godfrey", , "a.j.godfrey@massey.ac.nz", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-8129-8835"))
