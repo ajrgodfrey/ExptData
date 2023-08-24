@@ -15,7 +15,7 @@ A data frame with 24 observations on the following 6 variables.
 }
 }
 \source{
-Example 7.11; data found in Table 7.7 on page 148.
+Example 7.11; data found in Table 7.7 on page 148. A digital copy was obtained as No. 29 of Hand et al. (1994).
 }
 \usage{
 Peppers

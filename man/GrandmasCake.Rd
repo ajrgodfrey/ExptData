@@ -9,7 +9,7 @@
 
 Factors for Egg (A), Sugar (B), and Flour (C);
 the run order;
-a blocking variable, Block;
+a blocking variable, \code{Block};
 the Rating of each recipe.
 }
 \source{

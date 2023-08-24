@@ -14,7 +14,7 @@ A data frame with 36 observations on the following five variables.
 }
 }
 \source{
-Example 12.4; data found in  Table 12.13 on page 329.
+Example 12.4; data found in  Table 12.13 on page 329. A digital copy was obtained as No. 13 of Hand et al. (1994).
 }
 \usage{
 Detergent

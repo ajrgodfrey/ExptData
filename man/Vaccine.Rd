@@ -15,7 +15,7 @@ A data frame with twelve observations on the following six variables.
 }
 }
 \source{
-Example 11.1; data found in table 11.7 on page 289.
+Example 11.1; data found in table 11.7 on page 289. A digital copy was obtained as No. 28 of Hand et al. (1994).
 }
 \usage{
 Vaccine

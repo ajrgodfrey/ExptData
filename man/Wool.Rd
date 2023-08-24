@@ -15,6 +15,9 @@
 \item{\code{Cycles}}{a numeric vector}
 }
 }
+\source{
+A digital copy was obtained as No. 402 of Hand et al. (1994).
+}
 \usage{
 Wool
 }
