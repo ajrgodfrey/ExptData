@@ -14,6 +14,7 @@ Table 3.13 Data for the Trout Experiment. The response variable is Hemoglobin (g
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+
 Dean, Voss, and Draguljić (2017) \emph{Design and Analysis of Experiments}, Second edition, , Springer-Verlag New York.
 }
 \author{
