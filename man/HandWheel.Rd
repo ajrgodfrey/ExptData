@@ -14,6 +14,7 @@ Hand Wheel Data
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.
+
 Dean, Voss, and Draguljić (2017) \emph{Design and Analysis of Experiments}, Second edition, , Springer-Verlag New York.
 }
 \author{
