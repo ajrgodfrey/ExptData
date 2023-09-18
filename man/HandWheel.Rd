@@ -3,6 +3,21 @@
 \name{HandWheel}
 \alias{HandWheel}
 \title{Hand Wheel Data}
+\format{
+A data frame with 64 rows and 9 variables:
+\describe{
+\item{Block}{Block - 4 levels}
+\item{A}{handwheel diameter - 2 levels (5.5 or 10 in)}
+\item{B}{dial diameter - 2 levels (4 or 8 in)}
+\item{C}{thickness of the dial line - 2 levels (0.008 or 0.064 in)}
+\item{D}{friction of the spindle - 2 levels (7.5 or 45 lb.-in)}
+\item{E}{level of operator's elbow relative to height of handwheel - 2 levels (level or above)}
+\item{F}{previous experience of operator - 2 levels (practiced or nonpracticed)}
+\item{G}{knowledge of accuracy of previous setting - 2 levels (feedback or no feedback)}
+\item{LogS}{Response variable: log of sample variance of 25 repeated observations
+for a particular treatment combination}
+}
+}
 \source{
 adapted from files found at \url{http://deanvossdraguljic.ietsandbox.net/DeanVossDraguljic/R-data.html}
 }
@@ -10,7 +25,8 @@ adapted from files found at \url{http://deanvossdraguljic.ietsandbox.net/DeanVos
 HandWheel
 }
 \description{
-Hand Wheel Data
+An experiment for finding the design of a machine tool handwheel that would
+maximize the accuracy on the part of the operator in the setting of the machine tool handwheel. (Chapter 15, Table 15.48)
 }
 \references{
 Dean, A. and Voss, D. (1999). \emph{Design and Analysis of Experiments}. New York, Springer.

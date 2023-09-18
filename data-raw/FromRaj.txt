@@ -1,9 +1,7 @@
-*Article*: 
-A two-level unreplicated factorial experiment to determine the effect of organic and inorganic fertilizers on dry matter yield of permanent pasture 
 
-by T. Astatkie, A.A. Joseph and R.C. Martin 
 
-*Renewable Agriculture and Food Systems*, Volume 21, Issue 2 , June 2006, pp. 106-113 DOI: https://doi.org/10.1079/RAF2005133
+@source T. Astatkie, A.A. Joseph and R.C. Martin (2006) "A two-level unreplicated factorial experiment to determine the effect of organic and inorganic fertilizers on dry matter yield of permanent pasture" Renewable Agriculture and Food Systems 21, pp. 106-113 
+https://doi.org/10.1079/RAF2005133
 
 https://www.cambridge.org/core/journals/renewable-agriculture-and-food-systems/article/twolevel-unreplicated-factorial-experiment-to-determine-the-effect-of-organic-and-inorganic-fertilizers-on-dry-matter-yield-of-permanent-pasture/D6ED9D2CB2D25264C77538C986BBA431
 
